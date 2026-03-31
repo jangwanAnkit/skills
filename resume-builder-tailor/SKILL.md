@@ -1,6 +1,6 @@
 ---
-name: tailoring-resume-to-jd
-aliases: [resume-guide, resume-check, resume-verify, optimize-resume, match-resume-jd]
+name: resume-builder-tailor
+aliases: [resume-tailor, resume-guide, resume-check, resume-verify, optimize-resume, match-resume-jd]
 description: |
   Tailor resume JSON files to match job description requirements for the resume-builder project. Use whenever: user shares a job description URL, asks to "tailor resume to this role", wants resume matched to company/JD, needs to highlight specific skills, or mentions "ATS optimization" or "resume keywords". Requires ONLY verified data from the resume-builder repo or explicit user confirmation — never adds fabricated achievements. This is a template repo users can fork and customize with their own data.
 ---
