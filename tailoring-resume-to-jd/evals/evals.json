@@ -1,0 +1,25 @@
+{
+  "skill_name": "tailoring-resume-to-jd",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tailor my resume for this job: https://jobs.example.com/senior-python-django. The role requires Django, PostgreSQL, AWS, and REST API experience.",
+      "expected_output": "Should read all JSON files, rate JD relevance, confirm with user before making changes, preserve real metrics/achievements, reorder bullet points to emphasize Django/AWS, use stop-slop/humanizer if available"
+    },
+    {
+      "id": 2,
+      "prompt": "Update my resume for a React full-stack position. The JD emphasizes React, TypeScript, Next.js, and Node.js.",
+      "expected_output": "Should rate JD relevance, check existing experience for React/TypeScript, reorder projects to emphasize frontend, preserve real project names, ask user confirmation before changes"
+    },
+    {
+      "id": 3,
+      "prompt": "Can you check if my resume matches this AWS DevOps role? JD: https://jobs.example.com/devops-engineer",
+      "expected_output": "Should read experience.json and projects.json, rate JD relevance (5-8?), map AWS/DevOps keywords to existing data, provide gap analysis, NOT make changes without user request"
+    },
+    {
+      "id": 4,
+      "prompt": "I got recruiter feedback saying my resume lacks Kubernetes. Add Kubernetes to my experience.",
+      "expected_output": "Should first check if Kubernetes exists in any project/tech stack in repo, if not found ask user if they have actual K8s experience, if user confirms add with context. MUST NOT fabricate."
+    }
+  ]
+}
