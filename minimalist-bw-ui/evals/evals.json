@@ -1,0 +1,25 @@
+{
+  "skill_name": "minimalist-bw-ui",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a kanban board UI for tracking tasks with columns: To Do, In Progress, Done. Include 2-3 sample task cards in each column with title, assignee, and due date. Use the job tracker black/white minimalist style.",
+      "expected_output": "HTML/CSS with black background, white text, JetBrains Mono font, 7-column grid layout (or adapted), kanban cards with proper styling, uppercase labels"
+    },
+    {
+      "id": 2,
+      "prompt": "Build a job application form with fields for: position title, company name, application date, salary range, job URL, and notes textarea. Style it like the job tracker form with the minimalist black/white aesthetic.",
+      "expected_output": "HTML form with proper form-field structure, uppercase labels in muted color, transparent inputs with border, submit button with inverted colors"
+    },
+    {
+      "id": 3,
+      "prompt": "Design an analytics dashboard showing: total count, conversion rate, and two bar charts (one horizontal, one vertical) for data visualization. Use the job tracker's monochrome chart styling.",
+      "expected_output": "Stats section with stat-value and stat-label classes, Chart.js integration with dark theme config, 2-column grid for charts"
+    },
+    {
+      "id": 4,
+      "prompt": "Create a login page with social login buttons (Google, GitHub) and a traditional email/password form. Match the job tracker's login page styling exactly.",
+      "expected_output": "login-container with centered layout, social-btn class for OAuth buttons, form-field structure for inputs, inverted button styling"
+    }
+  ]
+}
